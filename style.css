@@ -9,5 +9,68 @@
 }
 .p-1{
     display: flex;
-    justify-content: left;
+    justify-content:end;
+}
+
+.primera{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 10%;
+    width: 10%;
+}
+
+.itemns1 {
+    display: flex;
+    padding: 0 5%;
+    gap: 5%;
+    background-color: gray;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.bo{
+    background-color: black;
+    color: white;
+}
+
+.itemns2{
+    background-color: black;
+    color: white;
+}
+
+.recycle{
+    background-color: white;
+
+}
+.pro{
+    background-color: gray;
 }
